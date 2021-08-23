@@ -25,6 +25,10 @@
     "styled-components": "^5.3.0",
     "web-vitals": "^1.1.2"
   },
+  "engines": {
+    "npm": "14.17.3",
+    "node": "6.14.13"
+  },
   "proxy": "http://localhost:5000",
   "scripts": {
     "start": "react-scripts start",

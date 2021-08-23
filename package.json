@@ -26,8 +26,8 @@
     "web-vitals": "^1.1.2"
   },
   "engines": {
-    "npm": "14.17.3",
-    "node": "6.14.13"
+    "npm": "6.14.13",
+    "node": "14.17.3"
   },
   "proxy": "http://localhost:5000",
   "scripts": {

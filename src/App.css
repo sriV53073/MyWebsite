@@ -3,7 +3,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-background-image:url(/Users/srivemugunta/Desktop/MyWebsite/webapp/src/components/images/background-photo.jpg);
+background-image:url(./components/images/background-photo.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;

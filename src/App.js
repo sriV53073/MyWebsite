@@ -38,7 +38,7 @@ function App() {
                  <Phone/>
             </Route>
           </Switch>
-    </div>
+          </div>
   );
 }
 

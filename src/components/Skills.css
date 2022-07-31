@@ -12,16 +12,16 @@
   
   /* Style your items */
   .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
-    background:white;
+    background: white;
     margin-bottom: 30px;
     margin-left: 5px;
     margin-right: 5px;
-    height: 200px;
+    height: fit-content;
   }
   .my-masonry-grid_column > div:hover{
-    background: black;
     cursor: grabbing;
-    color:white;
+    color:maroon;
+    background-color: peachpuff;
   }
   @media (max-width: 800px) {
     .my-masonry-grid {

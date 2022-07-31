@@ -10,7 +10,7 @@ const HomeBody = styled.div`
   text-align:center;
   `
   const Header = styled.h1`
-  color: white;
+  color: black;
   font-size: 50px;
   @media screen and (max-width: 860px)
   {
@@ -22,7 +22,7 @@ const HomeBody = styled.div`
 }
   `
    const Text = styled.h3`
-   color: white;
+   color: black;
    font-size: 20px;
    @media screen and (max-width: 860px)
   {
@@ -57,11 +57,11 @@ function Home() {
                     Hi, I'm Sri Vemugunta
                 </Header>
                 <Text>
-                    I am a computer science Student at Ut Dallas,
+                    I am a computer science Student at Ut Dallas, with an excpected grad date of May 2023
                     <br/>
-                    A web developer, who is experienced with both back end and front-end development.
+                    And Software developer, who is experienced with both back end and front-end development.
                     <br/>
-                    Learn more about me through my website
+                    Learn more about me through my Portfolio
                     <br/>
                     Donwload my resume below:<br/>
                     <Button size="sm" href='/Resume (2).pdf' download = "Sri_Resume">Download</Button>

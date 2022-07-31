@@ -7,7 +7,7 @@ z-index: 10;
   width: 100%;
   text-align:center;
   font-size: 20px;
-  color: white;
+  color: black;
   font-weight:bold;
   @media screen and (max-width: 955px)
   {
@@ -62,12 +62,13 @@ function Email() {
      
          async function makeGetRequest() {
 
-          let d = await axios.get('https://hidden-bayou-27100.herokuapp.com/');
-          setDat(d.data);
+          //let d = await axios.get('http://localhost:3001/');
+         // setDat(d.data);
             let res = await axios.post('https://hidden-bayou-27100.herokuapp.com/email', { content})
           
             let data = res.data;
-            setThanks("Thanks for reaching out");
+            console.log(data);
+            setThanks(`Hi You Email Was saved, I will respond as soon as I can.`);
           }
           makeGetRequest();
         setEmailValue("");

@@ -7,7 +7,7 @@ z-index: 10;
   width: 100%;
   text-align:center;
   font-size: 23px;
-  color: white;
+  color: black;
   font-weight:bold;
   @media screen and (max-width: 955px)
   {
@@ -35,7 +35,10 @@ function Phone() {
         <>
         <PhoneDiv>
             Hi, Thanks for showing interest in me. Please feel free to contact me at 847-917-1358
+            <br/>
+            Or Email Me at srivemugunta@gmail.com
         </PhoneDiv>
+
         </>
     )
 }

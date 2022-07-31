@@ -10,7 +10,8 @@ z-index: 10;
   text-align:center;
 `
 const SkillsHeader = styled.h1`
-color: white;
+color: black;
+padding-bottom: 30px;
   font-size: 50px;
   @media screen and (max-width: 860px)
   {
@@ -57,7 +58,7 @@ const breakpointColumnsObj = {
 function Skills() {
     const myExpression = function()
     {
-       const mySkills = ["JavaScript", "HTML", "CSS","React","Node.js","Redux","Express","Agile",""];
+       const mySkills = ["Java", "C++", "MongoDB", "JavaScript", "HTML/CSS","React", "Node.js", "TypeScript", "Angular.Js", "Nest.js", "Express.js", "Material-UI", "Git","NPM", "VS Code", "Visual Studio", "IntelliJ", "Eclipse", "Kore.ai", "Agile Methodology","Redux", "Mongoose"];
         const skillsList = mySkills.map((skill) =>
         <MySkills>
             <SkillsTitle>
@@ -71,7 +72,7 @@ function Skills() {
         <>
             <SkillsBody>
                 <SkillsHeader>
-                    These are my Current Skills
+                    What I can Offer You <br/>
                 </SkillsHeader>
                 <Masonry breakpointCols={breakpointColumnsObj} className="my-masonry-grid" columnClassName="my-masonry-grid_column">
                     {myExpression()}

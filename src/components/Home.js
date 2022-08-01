@@ -64,7 +64,7 @@ function Home() {
                     Learn more about me through my Portfolio
                     <br/>
                     Donwload my resume below:<br/>
-                    <Button size="sm" href='/Resume (2).pdf' download = "Sri_Resume">Download</Button>
+                    <Button size="sm" href='./Sri_s_Official_Resume (3).pdf' download = "Sri_Resume">Download</Button>
                 </Text>
             </HomeBody>
        </>

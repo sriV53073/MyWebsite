@@ -127,11 +127,10 @@ function Projects() {
                    </ProjectTitle>
                    <ProjectDesc>
                        Created this Project using React, Node<br/>
-                       with Express. For the multi page website<br/>
+                       with Express and Mongoose. For the multi page website<br/>
                        I used react-router. The website is fully dynamic and responsice. This was done using
                        <br/> Media Query's. The website also implements flex box in multiple places. The website sends a request to the 
-                       <br/> Backend email server, in order to send me an email.
-
+                       <br/> Backend email server, in order to store the message sent to the backend in a database. In order for me to see it.
                    </ProjectDesc>
                </MyProjects>
                <MyProjects>

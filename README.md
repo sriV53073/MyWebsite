@@ -14,7 +14,8 @@ Features
    
 Site Acess
    you can acess the site at https://secret-mountain-76791.herokuapp.com/. It might take some time to load because heroku, puts the app to sleep.
-
+Cloning
+   You can clone the repo if you want to use it and change the code based on what you need. You would also need to create your own server or find you own way to implement that.
 
 License
 
